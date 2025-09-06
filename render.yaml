@@ -3,10 +3,11 @@ services:
     name: raj-3d-portfolio
     env: node
     plan: free
-    rootDir: .
-    buildCommand: npm install && npm run build
-    startCommand: npx serve -s build -l 10000
+    buildCommand: npm ci && npm run build
+    startCommand: npx serve -s build -p 10000
     healthCheckPath: /
     envVars:
       - key: NODE_VERSION
         value: 18.17.0
+      - key: CI
+        value: false
