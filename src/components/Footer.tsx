@@ -41,8 +41,8 @@ const Footer: React.FC = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-8">
             {[
-              { name: 'LinkedIn', url: 'https://linkedin.com/in/raj', icon: '💼' },
-              { name: 'GitHub', url: 'https://github.com/raj', icon: '💻' },
+              { name: 'LinkedIn', url: 'https://www.linkedin.com/in/raj-koli-626008318/', icon: '💼' },
+              { name: 'GitHub', url: 'https://github.com/Rajkoli145', icon: '💻' },
               { name: 'Twitter', url: 'https://twitter.com/raj', icon: '🐦' },
               { name: 'Email', url: 'mailto:raj@example.com', icon: '📧' }
             ].map((social) => (
