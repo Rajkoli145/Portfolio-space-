@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce 3D Store",
+    "description": "Interactive 3D product showcase with AR preview capabilities",
+    "tags": ["Web", "3D", "E-commerce"],
+    "thumbnail": "/images/ecommerce-thumb.jpg",
+    "modelUrl": "/models/store.glb",
+    "liveUrl": "https://3d-store-demo.com",
+    "githubUrl": "https://github.com/raj/3d-store",
+    "techStack": ["React", "Three.js", "Node.js", "MongoDB"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Virtual Art Gallery",
+    "description": "Immersive virtual gallery with realistic lighting and physics",
+    "tags": ["3D", "Art", "VR"],
+    "thumbnail": "/images/gallery-thumb.jpg",
+    "modelUrl": "/models/gallery.glb",
+    "liveUrl": "https://virtual-gallery-demo.com",
+    "githubUrl": "https://github.com/raj/virtual-gallery",
+    "techStack": ["React", "Three.js", "WebXR", "Express"],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Real Estate 3D Tours",
+    "description": "Interactive property tours with 360° views and floor plans",
+    "tags": ["Web", "3D", "Real Estate"],
+    "thumbnail": "/images/realestate-thumb.jpg",
+    "modelUrl": "/models/house.glb",
+    "liveUrl": "https://3d-tours-demo.com",
+    "githubUrl": "https://github.com/raj/3d-tours",
+    "techStack": ["React", "Three.js", "Next.js", "PostgreSQL"],
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Interactive Data Visualization",
+    "description": "3D charts and graphs for complex data analysis",
+    "tags": ["Web", "Data", "Visualization"],
+    "thumbnail": "/images/dataviz-thumb.jpg",
+    "modelUrl": "/models/chart.glb",
+    "liveUrl": "https://3d-dataviz-demo.com",
+    "githubUrl": "https://github.com/raj/3d-dataviz",
+    "techStack": ["React", "D3.js", "Three.js", "Python"],
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Gaming Portfolio Hub",
+    "description": "Retro-futuristic gaming interface with particle effects",
+    "tags": ["Web", "Gaming", "UI/UX"],
+    "thumbnail": "/images/gaming-thumb.jpg",
+    "modelUrl": "/models/console.glb",
+    "liveUrl": "https://gaming-hub-demo.com",
+    "githubUrl": "https://github.com/raj/gaming-hub",
+    "techStack": ["React", "Three.js", "GSAP", "Firebase"],
+    "featured": true
+  },
+  {
+    "id": 6,
+    "title": "Medical 3D Visualization",
+    "description": "Interactive anatomy models for medical education",
+    "tags": ["3D", "Medical", "Education"],
+    "thumbnail": "/images/medical-thumb.jpg",
+    "modelUrl": "/models/anatomy.glb",
+    "liveUrl": "https://medical-3d-demo.com",
+    "githubUrl": "https://github.com/raj/medical-3d",
+    "techStack": ["React", "Three.js", "WebGL", "Node.js"],
+    "featured": false
+  }
+]
