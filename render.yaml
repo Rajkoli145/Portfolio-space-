@@ -3,7 +3,7 @@ services:
     name: raj-3d-portfolio
     env: node
     plan: free
-    buildCommand: npm ci && npm run build
+    buildCommand: npm install && npm run build
     startCommand: npx serve -s build -p 10000
     healthCheckPath: /
     envVars:
